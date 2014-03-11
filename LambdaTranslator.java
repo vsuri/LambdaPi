@@ -33,15 +33,19 @@ class LambdaTranslator
     public static void main(String[] args)
     {
         
+        // Comment out the Console stuff and comment in the .txt files to read from file instead of console.
+        
         //ReadLambdaExpressions("SampleExp.txt");
-        ReadLambdaExpressions("ChurchNumerals.txt");
-/*
+        //ReadLambdaExpressions("ChurchNumerals.txt");
+
+        ////////////////////////////
         
         Console console = System.console();
         String input = "";
         input += console.readLine("Enter a Lambda Expression\nAccepted syntax: \n Use L as the Lambda symbol\n Enter input using the following terms-\n  variable : i.e. x\n  lambda abstraction : i.e. Lx.y\n  function application : i.e. MN\n\n --> ");
         Expressions.add(input);
-        */
+        
+        ////////////////////////////
         
         for(int n = 0; n < Expressions.size(); n++)
         {
