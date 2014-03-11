@@ -1,0 +1,8 @@
+#0
+Ls.Lz.z
+#1
+Ls.Lz.sz
+#2
+Ls.Lz.s(sz)
+#add
+La.Lb.Ls.Lz.as(bsz)
